@@ -1,3 +1,6 @@
+# Fester Projektname, unabhängig von Ordnername und Speicherort
+name: ugen
+
 services:
   ugen:
     image: ghcr.io/dmyrenne/ugen:latest
