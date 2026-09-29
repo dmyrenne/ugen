@@ -36,7 +36,7 @@ const I18N = {
     'stat.size': 'Zeichnung',
     'busy': 'rechne …',
     'keys.html': '<kbd>R</kbd> würfeln · <kbd>S</kbd> SVG speichern · <kbd>Leertaste</kbd> abspielen · Mausrad zoomt, Ziehen verschiebt',
-    'footer.html': 'µgen by Daniel Myrenne · gebaut mit <a href="https://p5js.org" target="_blank" rel="noopener">p5.js</a> · SVG für <a href="https://github.com/dmyrenne/uplot" target="_blank" rel="noopener">µplot</a>',
+    'footer.html': 'µgen by Daniel Myrenne · <a href="https://github.com/dmyrenne/ugen" target="_blank" rel="noopener">GitHub</a> · gebaut mit <a href="https://p5js.org" target="_blank" rel="noopener">p5.js</a> · SVG für <a href="https://github.com/dmyrenne/uplot" target="_blank" rel="noopener">µplot</a>',
   },
   en: {
     'lang': 'Language',
@@ -71,7 +71,7 @@ const I18N = {
     'stat.size': 'Drawing',
     'busy': 'computing …',
     'keys.html': '<kbd>R</kbd> roll · <kbd>S</kbd> save SVG · <kbd>Space</kbd> play · wheel zooms, drag pans',
-    'footer.html': 'µgen by Daniel Myrenne · built with <a href="https://p5js.org" target="_blank" rel="noopener">p5.js</a> · SVG for <a href="https://github.com/dmyrenne/uplot" target="_blank" rel="noopener">µplot</a>',
+    'footer.html': 'µgen by Daniel Myrenne · <a href="https://github.com/dmyrenne/ugen" target="_blank" rel="noopener">GitHub</a> · built with <a href="https://p5js.org" target="_blank" rel="noopener">p5.js</a> · SVG for <a href="https://github.com/dmyrenne/uplot" target="_blank" rel="noopener">µplot</a>',
   },
 };
 
