@@ -4,7 +4,7 @@ name: ugen
 services:
   ugen:
     image: ghcr.io/dmyrenne/ugen:latest
-    build: .
+    # build: .                  # zum Bauen aus dem Quellcode einkommentieren, dann "docker compose up -d --build"
     ports:
-      - "127.0.0.1:5056:8080"   # nur lokal erreichbar; für das ganze Netz "5056:8080"
+      - "5056:8080"             # im ganzen Netz erreichbar; nur lokal: "127.0.0.1:5056:8080"
     restart: unless-stopped

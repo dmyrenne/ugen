@@ -10,21 +10,22 @@ Linienzeichnungen und exportieren sie als SVG in Millimetern, bereit für
 
 Fertiges Image für amd64 und arm64 (z. B. Raspberry Pi):
 
-    docker run -d --name ugen -p 127.0.0.1:5056:8080 --restart unless-stopped ghcr.io/dmyrenne/ugen:latest
+    docker run -d --name ugen -p 5056:8080 --restart unless-stopped ghcr.io/dmyrenne/ugen:latest
 
 Oder mit Compose aus dem Projektordner:
 
-    docker compose up -d                 # http://127.0.0.1:5056
+    docker compose up -d                 # http://localhost:5056
 
 | Aufgabe | Befehl |
 | --- | --- |
 | Stoppen | `docker compose down` |
 | Aktualisieren | `docker compose pull && docker compose up -d` |
-| Selbst bauen | `docker compose up -d --build` |
+| Selbst bauen | in `compose.yaml` `build: .` einkommentieren, dann `docker compose up -d --build` |
 
 Das Image ist ein schlanker nginx ohne Root-Rechte, der die statischen Dateien ausliefert (Port 8080 im
-Container). Einstellungen speichert der Browser, der Container hat keine Daten. Für andere Geräte im Netz in
-`compose.yaml` `"127.0.0.1:5056:8080"` durch `"5056:8080"` ersetzen.
+Container). Einstellungen speichert der Browser, der Container hat keine Daten. µgen ist im ganzen Netz
+erreichbar und hat keine Anmeldung; nur vom eigenen Rechner: in `compose.yaml` `"5056:8080"` durch
+`"127.0.0.1:5056:8080"` ersetzen.
 
 ### Image-Builds
 
