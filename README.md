@@ -4,6 +4,8 @@ Studio für generative Plotter-Kunst, gebaut mit [p5.js](https://p5js.org). Die 
 Linienzeichnungen und exportieren sie als SVG in Millimetern, bereit für
 [µplot](https://github.com/dmyrenne/uplot) oder jedes andere Plotter-Werkzeug (z. B. vpype).
 
+![µgen mit dem Generator Mesh-Blob: Regler links, Vorschau der verbeulten Dreiecks-Kugel auf dem Papier](docs/screenshot.png)
+
 ## Installation mit Docker
 
 Fertiges Image für amd64 und arm64 (z. B. Raspberry Pi):
