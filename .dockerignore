@@ -1,0 +1,7 @@
+.git
+.github
+*.svg
+start.sh
+compose.yaml
+Dockerfile
+README.md

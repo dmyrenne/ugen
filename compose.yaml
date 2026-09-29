@@ -1,0 +1,7 @@
+services:
+  ugen:
+    image: ghcr.io/dmyrenne/ugen:latest
+    build: .
+    ports:
+      - "127.0.0.1:5056:8080"   # nur lokal erreichbar; für das ganze Netz "5056:8080"
+    restart: unless-stopped
